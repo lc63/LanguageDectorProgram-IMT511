@@ -1,3 +1,10 @@
 # LanguageDetectorProgram-IMT511
-Detects language in file
-from IMT 511 class
+This program detects which language was used to draft a text file.
+
+## Languages detected
+
+* English
+ 
+* German
+
+* Spanish
