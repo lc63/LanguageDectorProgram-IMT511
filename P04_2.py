@@ -52,8 +52,10 @@ for w in uk.keys():
    S = sp.get(w, 0)
    Sdiff=abs(S-U)
    Sb= Sb + Sdiff
-  
+
 if Sb < Eb and Sb < Db:
     print('Spanish!')
-else:
-    print ('wrong!')
+elif Eb < Sb and Eb < Db:
+    print ('English!')
+elif Db < Sb and Db < Eb:
+    print ('German')
